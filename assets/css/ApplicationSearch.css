@@ -1,3 +1,63 @@
 .body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.my__container {
     width: 100%;
+}
+
+.dropdown {
+    background-color: #1F1F27;
+}
+
+.Logo {
+    width: 15%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.my__dropdown {
+    max-width: 30vw; 
+    height: 100vh;
+}
+
+.btn {
+    color: #ffff;
+    display: flex;
+    margin: 0;
+    height: 10%;
+    font-size: 90%;
+    margin-top: 10%;
+}
+
+.btn:hover {
+    color: #ffff;
+    background-color: #30303A;
+}
+
+.adapted__img {
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4%;
+}
+
+.adapted__txt {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    height: auto;
+}
+
+.my__pdn {
+    margin-top: 40%;
 }
