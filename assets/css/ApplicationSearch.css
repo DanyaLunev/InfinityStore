@@ -92,25 +92,29 @@ body::-webkit-scrollbar{
     font-weight: bold;
     line-height: 1.5;
     color: #5A5B62;
-    background-color: #F5F3FE;
+    background-color: #ffffff;
     background-clip: padding-box;
     border: 3px solid #EDEDED;
     border-radius: .25rem;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 5%;
     margin-right: 3%;
 }
 
 .set__bg {
     border-radius: 1rem;
+    background-color: #FFFFFF;
 }
 
 .my__btn1 {
     color: #9CA7B3;
     font-size: 25px;
-    width: 10vw;
+    width: 38vw;
     margin-top: 6%;
     height: 10vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .my__btn1:hover {
@@ -122,11 +126,15 @@ body::-webkit-scrollbar{
     color: #FFFFFF;
     background-color: #525FEF;
     font-size: 25px;
-    width: 18vw;
+    width: 50vw;
     margin-top: 6%;
-    margin-left: 40%;
+    margin-left: 10%;
+    margin-right: 6%;
+    padding-bottom: 10%;
     height: 10vh;
     border-radius: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .my__btn2:hover {
@@ -146,12 +154,12 @@ body::-webkit-scrollbar{
 }
 
 .btn__best {
-    margin-top: 5%;
+    margin-top: 4%;
     width: 10vw;
 }
 
 .apps {
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .app__bar {
@@ -190,4 +198,15 @@ body::-webkit-scrollbar{
 .subtitle {
     color: #9CA7B3;
     margin-top: 5%;
+    font-size: 18px;
+}
+
+.form-control {
+    height: 10vh;
+    width: 15vw;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 8%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
