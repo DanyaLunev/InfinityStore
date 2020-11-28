@@ -160,3 +160,18 @@ body::-webkit-scrollbar{
     margin-right: 5%;
     height: 12vh;
 }
+
+.my__btn {
+    color: #FFFFFF;
+    background-color: #525FEF;
+    font-size: 25px;
+    height: 7vh;
+    border-radius: 1rem;
+    width: 26vw;
+    padding-left: 3%;
+    margin-top: 10%;
+}
+
+.my__btn:hover {
+    background-color: #525FEF;
+}
