@@ -64,11 +64,11 @@ body::-webkit-scrollbar{
     margin-top: 35%;
 }
 
-.col-sm-4 {
+.col-sm-3{
     padding: 0;
 }
 
-.col-sm-8 {
+.col-sm-9 {
     padding: 0;
 }
 
@@ -130,7 +130,6 @@ body::-webkit-scrollbar{
     margin-top: 6%;
     margin-left: 10%;
     margin-right: 6%;
-    padding-bottom: 10%;
     height: 10vh;
     border-radius: 1rem;
     margin-top: auto;
