@@ -1,0 +1,162 @@
+.body {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.my__container {
+    width: 100%;
+}
+
+.dropdown {
+    background-color: #1F1F27;
+}
+
+.Logo {
+    width: 15%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.my__dropdown {
+    max-width: 100%; 
+    height: 100vh;
+}
+
+.btn {
+    color: #ffff;
+    display: flex;
+    margin: 0;
+    height: 10%;
+    font-size: 90%;
+
+}
+
+.btn:hover {
+    color: #ffff;
+    background-color: #30303A;
+    border-color: #30303A;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: #F5F3FE;
+}
+
+.adapted__img {
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4%;
+}
+
+.adapted__txt {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    height: auto;
+}
+
+.my__pdn {
+    margin-top: 35%;
+}
+
+.col-sm-3 {
+    padding: 0;
+}
+
+.col-sm-9 {
+    padding: 0;
+}
+
+.col-sm-6 {
+    padding: 0;
+}
+
+.set__bg {
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+}
+
+.app__bar {
+    display: flex;
+    height: 60vh;
+}
+
+.title__new {
+    color: #000000;
+    margin-top: 5%;
+    margin-left: 7%;
+    font-size: 28px;
+    font-weight: bold;
+    height: 2%;
+}
+
+.my__btn__new {
+    height: 40vh;
+    width: 85%;
+    padding-left: 35%;
+    margin-top: 12%;
+    border-radius: 1rem;
+    border-color: #000000;
+}
+
+.my__btn__new:hover {
+    background-color: #FFFFFF;
+}
+
+.name {
+    width: 30vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 17%;
+}
+
+.description {
+    width: 30vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 6%;
+}
+
+.categories {
+    width: 12vw;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.functions {
+    width: 12vw;
+    margin-left: 17.5%;
+    margin-top: 4%;
+}
+
+.set__bg__rating {
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+    height: 25vh;
+    margin-top: 5%;
+}
+
+.platforms {
+    color: #000000;
+    font-size: 25px;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
+
+}
+
+.platforms__new {
+    margin-right: 5%;
+    height: 12vh;
+}
