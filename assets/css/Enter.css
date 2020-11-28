@@ -1,0 +1,109 @@
+.body {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.my__container {
+    width: 100%;
+}
+
+.content {
+    background-color: #ffffff;
+    color: #5A5B62;
+}
+
+.my__form {
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my__pdn {
+    margin-top: 30vh;
+}
+
+.btn {
+    color: #ffff;
+    display: flex;
+    margin: 0;
+    height: 10%;
+    font-size: 90%;
+
+}
+
+.btn:hover {
+    color: #ffff;
+    background-color: #30303A;
+    border-color: #30303A;
+}
+
+.my__btn {
+    color: #FFFFFF;
+    background-color: #525FEF;
+    font-size: 25px;
+    height: 9vh;
+    border-radius: 0.5rem;
+    width: 20vw;
+    padding-left: 7.5%;
+    padding-top: 1%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my__btn:hover {
+    background-color: #525FEF;
+}
+
+.my__btn__reg {
+    color: #FFFFFF;
+    background-color: #1E1E25;
+    font-size: 25px;
+    height: 9vh;
+    border-radius: 0.5rem;
+    width: 20vw;
+    padding-left: 4.5%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my__btn__reg:hover {
+    background-color: #1E1E25;
+    color: #ffffff;
+}
+
+.my__btn__new {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 25px;
+    height: 9vh;
+    border-radius: 0.5rem;
+    width: 24vw;
+    padding-left: 4.5%;
+    padding-top: 1%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my__btn__new:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.form-control {
+    height: 8vh;
+}
