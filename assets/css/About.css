@@ -150,14 +150,14 @@ body::-webkit-scrollbar{
     font-size: 25px;
     margin-top: 6%;
     padding-top: 1%;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .text {
     color: #5A5B62;
     font-size: 12px;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .set__bg__new {
@@ -179,4 +179,34 @@ body::-webkit-scrollbar{
 .new__btn:hover {
     color: #525FEF;
     background-color: #ffffff;
+}
+
+.assessments__of__people {
+    color: #000000;
+    font-size: 25px;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
+
+}
+
+.set__bg__rating {
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+    height: 100vh;
+    margin-top: 7%;
+}
+
+.rating {
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+    height: 15vh;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.stars__new {
+    height: 14%;
+    margin-left: 3%;
+    margin-bottom: auto;
 }
